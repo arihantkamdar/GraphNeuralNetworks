@@ -39,6 +39,11 @@ source venv/bin/activate        # On Linux/macOS
 venv\Scripts\activate           # On Windows
 
 # 3. Install dependencies
-pip install -r r.txr```
+pip install -r r.txt
+
+
+bash```
+
+
 
 
