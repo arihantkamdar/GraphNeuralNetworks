@@ -53,9 +53,4 @@ To run  the project or a particular model:
 
 - select the model you want to run and go into that directory
 - ```
-  bashrun python3 train.py
-
-
-
-
-
+  python3 train.py
