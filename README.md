@@ -28,6 +28,17 @@ Features
 ## Installation
 
 To set up the project environment, follow these steps:
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
 
+# 2. (Optional but recommended) Create a virtual environment
+python -m venv venv
+source venv/bin/activate        # On Linux/macOS
+venv\Scripts\activate           # On Windows
+
+# 3. Install dependencies
+pip install -r r.txr```
 
 
