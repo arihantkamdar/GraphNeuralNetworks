@@ -52,7 +52,7 @@ Each Model has a structure like:
 To run  the project or a particular model:
 
 - select the model you want to run and go in that directory
-- run python3 train.py
+- ```bashrun python3 train.py
 
 
 
