@@ -30,19 +30,30 @@ Features
 To set up the project environment, follow these steps:
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
+git clone [repo](https://github.com/arihantkamdar/GraphNeuralNetworks.git/)
+cd repo
 
 # 2. (Optional but recommended) Create a virtual environment
 python -m venv venv
 source venv/bin/activate        # On Linux/macOS
 venv\Scripts\activate           # On Windows
+# if this creates an issue, use poetry! 
+
 
 # 3. Install dependencies
 pip install -r r.txt
 
+```
+Each Model has a structure like:
+- Data.py: Which helps in preprocessing CSV data into graph structures
+- Model.py: Where the core Deep learning model is
+- train.py: The code to run training and inference pipeline: here all the parameters and hyperparamters are defined
 
-bash```
+To run  the project or a particular model:
+
+- select the model you want to run and go in that directory
+- run python3 train.py
+
 
 
 
