@@ -53,4 +53,4 @@ To run  the project or a particular model:
 
 - select the model you want to run and go into that directory
 - ```
-  python3 train.py
+  python3 train.py # Make sure that you change the path to correct data file path for the csv file before running it in train.py and data.py
